@@ -1,0 +1,9 @@
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\bin\Debug\SecurityPackageTest.dll
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\bin\Debug\SecurityPackageTest.pdb
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\bin\Debug\SecurityLibrary.dll
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\bin\Debug\SecurityLibrary.pdb
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.csproj.AssemblyReference.cache
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.csproj.CoreCompileInputs.cache
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.csproj.CopyComplete
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.dll
+C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.pdb
