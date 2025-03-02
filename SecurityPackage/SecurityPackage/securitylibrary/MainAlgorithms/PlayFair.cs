@@ -14,7 +14,25 @@ namespace SecurityLibrary
 
         public string Decrypt(string cipherText, string key)
         {
-            String plainText = "a";
+            //convert string key to a matrix
+            generateKeyMatrix(key);
+            //convert plaintext to list of pairs
+            List<string> pairs = convertCipherTextToListOfPairs(cipherText);
+            //decrypting the pairs
+            string plainText = "";
+            foreach (String pair in pairs)
+                plainText += DecryptPair(pair[0], pair[1]);
+            //remove extra XXXXX
+            if (plainText[plainText.Length - 1] == 'X')
+                plainText = plainText.Substring(0, plainText.Length - 1);
+            for (int i = 0; i < plainText.Length - 1; i++)
+            {
+                if (plainText[i] == 'X' && i > 0 && i < plainText.Length - 1 &&
+                    plainText[i - 1] == plainText[i + 1])
+                {
+                    plainText = plainText.Remove(i, 1);
+                }
+            }
             return plainText.ToLower();
         }
 
@@ -56,7 +74,18 @@ namespace SecurityLibrary
             }
           
         }
-
+        private List<String> convertCipherTextToListOfPairs(String text)
+        {
+            text = text.ToUpper().Replace("J", "I");
+            List<string> pairs = new List<string>();
+            for (int i = 0; i < text.Length; i += 2)
+            {
+                char first = text[i];
+                char second =  text[i + 1];
+                pairs.Add($"{first}{second}");
+            }
+            return pairs;
+        }
         private List<string> convertPlainTextToListOfPairs(string text)
         {
             text = text.ToUpper().Replace("J", "I");
@@ -83,7 +112,35 @@ namespace SecurityLibrary
             return pairs;
         }
 
-        private string EncryptPair(char a, char b)
+        private string DecryptPair(char a, char b)
+        {
+            int row1 = 0;
+            int col1 = 0;
+            int row2 = 0;
+            int col2 = 0;
+            FindPosition(a, ref row1, ref col1);
+            FindPosition(b, ref row2, ref col2);
+
+
+            if (row1 == row2)
+            {
+                col1 = (col1 - 1 + 5) % 5;
+                col2 = (col2 - 1 + 5) % 5;
+                return keyMatrix[row1, col1].ToString() + keyMatrix[row2, col2].ToString();
+            }
+            else if (col1 == col2)
+            {
+                row1 = (row1 - 1 + 5) % 5;
+                row2 = (row2 - 1 + 5) % 5;
+                return keyMatrix[row1, col1].ToString() + keyMatrix[row2, col2].ToString();
+            }
+            else
+            {
+                return keyMatrix[row1, col2].ToString() + keyMatrix[row2, col1].ToString();
+            }
+
+        }
+            private string EncryptPair(char a, char b)
         {
             int row1 = 0;
             int col1=0;
