@@ -20,7 +20,16 @@ namespace SecurityLibrary
 
         public string Encrypt(string plainText, string key)
         {
-            throw new NotImplementedException();
+            string newKey = key;
+            string cipherText = "";
+            int diff = plainText.Length - key.Length;
+            newKey += plainText.Substring(0, diff);
+            for(int i = 0; i< plainText.Length; i++)
+            {
+                int character = (plainText[i] - 97 + newKey[i] - 97) % 26;
+                cipherText += (char)(character + 97);
+            }
+            return cipherText;
         }
     }
 }
