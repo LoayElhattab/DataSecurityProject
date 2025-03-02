@@ -25,7 +25,24 @@ namespace SecurityLibrary
 
         public List<int> Encrypt(List<int> plainText, List<int> key)
         {
-            throw new NotImplementedException();
+            List<int> cipherText = new List<int>();
+            int n = (int)Math.Sqrt(key.Count());
+            for (int i = 0; i < plainText.Count(); i = i + n)
+            {
+                for (int j = i; j < i + n; j++)
+                {
+                    cipherText.Add(0);
+                    for (int k = i; k < i + n; k++)
+                    {
+                        cipherText[j] += plainText[k] * key[(j % n) * n + k % n];
+                    }
+                }
+            }
+            for (int i = 0; i < cipherText.Count(); i++)
+            {
+                cipherText[i] = cipherText[i] % 26;
+            }
+            return cipherText;
         }
 
 
