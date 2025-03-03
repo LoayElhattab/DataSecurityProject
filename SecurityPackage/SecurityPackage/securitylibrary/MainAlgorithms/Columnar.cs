@@ -15,8 +15,45 @@ namespace SecurityLibrary
 
         public string Decrypt(string cipherText, List<int> key)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            int columns = key.Count;
+            int rows = (int)Math.Ceiling((double)cipherText.Length / columns);
+            char[,] arr = new char[rows, columns];
+            List<KeyValuePair<int, int>> keyWthIndex = new List<KeyValuePair<int, int>>();
+            int idx = 0;
+            foreach (int k in key)
+            {
+                keyWthIndex.Add(new KeyValuePair<int, int>(k, idx++));
+            }
+            keyWthIndex = keyWthIndex.OrderBy(pair => pair.Key).ToList();
+            int index = 0;
+            foreach (var pair in keyWthIndex)
+            {
+                int colIndex = pair.Value;
+                for (int i = 0; i < rows; i++)
+                {
+                    if (index < cipherText.Length)
+                    {
+                        arr[i, colIndex] = cipherText[index++];
+                    }
+                }
+            }
+            string plainText = "";
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    if (arr[i, j] != '\0')
+                    {
+                        plainText += arr[i, j];
+                    }
+
+                }
+            }
+            return plainText;
         }
+
+
 
         public string Encrypt(string plainText, List<int> key)
         {
