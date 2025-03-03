@@ -11,16 +11,38 @@ namespace SecurityLibrary
         public string Analyse(string plainText, string cipherText)
         {
             throw new NotImplementedException();
+
         }
 
         public string Decrypt(string cipherText, string key)
         {
-            throw new NotImplementedException();
+            string text = "";
+            for (int i = 0; i < cipherText.Length; i++)
+            {
+                for (int j = 0; j < key.Length; j++)
+                {
+                    if (cipherText[i] + 32 == key[j])
+                    {
+                        text += (char)(j + 'a');
+                        break;
+                    }
+                }
+
+            }
+            return text;
+
         }
 
         public string Encrypt(string plainText, string key)
         {
-            throw new NotImplementedException();
+            string cipher = "";
+            for (int i = 0; i < plainText.Length; i++)
+            {
+                int currentchar = plainText[i] - 'a';
+                cipher += key[currentchar];
+            }
+            return cipher;
+
         }
 
         /// <summary>
