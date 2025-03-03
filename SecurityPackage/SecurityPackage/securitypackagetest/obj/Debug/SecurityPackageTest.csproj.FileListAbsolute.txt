@@ -7,3 +7,12 @@ C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj
 C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.csproj.CopyComplete
 C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.dll
 C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.pdb
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\bin\Debug\SecurityPackageTest.dll
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\bin\Debug\SecurityPackageTest.pdb
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\bin\Debug\SecurityLibrary.dll
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\bin\Debug\SecurityLibrary.pdb
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.csproj.AssemblyReference.cache
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.csproj.CoreCompileInputs.cache
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\Security.174D7A11.Up2Date
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.dll
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityPackageTest\obj\Debug\SecurityPackageTest.pdb

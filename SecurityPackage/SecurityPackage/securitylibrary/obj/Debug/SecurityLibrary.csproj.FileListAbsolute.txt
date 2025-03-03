@@ -10,3 +10,9 @@ C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityLibrary\bin\Deb
 C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityLibrary\bin\Debug\SecurityLibrary.pdb
 C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityLibrary\obj\Debug\SecurityLibrary.csproj.AssemblyReference.cache
 C:\Data Security Project\SecurityPackage\SecurityPackage\SecurityLibrary\obj\Debug\SecurityLibrary.csproj.CoreCompileInputs.cache
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityLibrary\bin\Debug\SecurityLibrary.dll
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityLibrary\bin\Debug\SecurityLibrary.pdb
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityLibrary\obj\Debug\SecurityLibrary.csproj.AssemblyReference.cache
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityLibrary\obj\Debug\SecurityLibrary.csproj.CoreCompileInputs.cache
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityLibrary\obj\Debug\SecurityLibrary.dll
+D:\University\Year 3\6th Term\Data Security\Project\DataSecurityProject\SecurityPackage\SecurityPackage\SecurityLibrary\obj\Debug\SecurityLibrary.pdb

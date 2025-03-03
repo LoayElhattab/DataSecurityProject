@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\Milestone 1\\SecurityPackage\\SecurityPackage\\",
+  "WorkspaceRootPath": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|d:\\university\\year 3\\6th term\\data security\\project\\milestone 1\\securitypackage\\securitypackage\\securitypackagetest\\ceasertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\hillcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\hillcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\ceasertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|solutionrelative:securitypackagetest\\ceasertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,15 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CeaserTest.cs",
-              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\Milestone 1\\SecurityPackage\\SecurityPackage\\securitypackagetest\\CeaserTest.cs",
-              "RelativeDocumentMoniker": "securitypackagetest\\CeaserTest.cs",
-              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\Milestone 1\\SecurityPackage\\SecurityPackage\\securitypackagetest\\CeaserTest.cs",
-              "RelativeToolTip": "securitypackagetest\\CeaserTest.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAAAMAAAAAAAAAA==",
+              "Title": "HillCipher.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\HillCipher.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\HillCipher.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\HillCipher.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\HillCipher.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T21:25:35.124Z",
+              "WhenOpened": "2025-03-02T21:35:05.999Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CeaserTest.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\CeaserTest.cs",
+              "RelativeDocumentMoniker": "securitypackagetest\\CeaserTest.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\CeaserTest.cs",
+              "RelativeToolTip": "securitypackagetest\\CeaserTest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T21:25:35.124Z"
             }
           ]
         }
