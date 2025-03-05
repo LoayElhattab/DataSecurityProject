@@ -10,11 +10,53 @@ namespace SecurityLibrary
     {
         public string Analyse(string plainText, string cipherText)
         {
-            throw new NotImplementedException();
 
-        }
+            Dictionary<char, char> data = new Dictionary<char, char>();
 
-        public string Decrypt(string cipherText, string key)
+            for (int i = 0; i < plainText.Length; i++)
+            {
+              
+                if (!data.ContainsKey(plainText[i]))
+                {
+                   
+                    data[plainText[i]] = (char)(cipherText[i]+32);
+                }
+            }
+
+          
+            HashSet<char> usedChar = new HashSet<char>(data.Values);
+
+          
+            for (char i = 'a'; i <= 'z'; i++)
+            {
+                if (!data.ContainsKey(i))
+                {
+                    for (char j = 'a'; j <= 'z'; j++)
+                    {
+                        if (!usedChar.Contains(j))
+                        {
+                            data[i] = j;
+                            usedChar.Add(j);
+                            break;
+                        }
+                    }
+                }
+            }
+
+
+            string key = "";
+            for (char c = 'a'; c <= 'z'; c++)
+            {
+                key+= data[c];
+            }
+
+            return key;
+                }
+        
+
+
+
+public string Decrypt(string cipherText, string key)
         {
             string text = "";
             for (int i = 0; i < cipherText.Length; i++)
@@ -78,6 +120,7 @@ namespace SecurityLibrary
         /// <returns>Plain text</returns>
         public string AnalyseUsingCharFrequency(string cipher)
         {
+
             throw new NotImplementedException();
         }
     }
