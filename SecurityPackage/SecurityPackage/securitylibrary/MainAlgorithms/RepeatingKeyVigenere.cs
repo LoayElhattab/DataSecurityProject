@@ -10,25 +10,40 @@ namespace SecurityLibrary
     {
         public string Analyse(string plainText, string cipherText)
         {
-            throw new NotImplementedException();
+            cipherText = cipherText.ToLower();
+            string key = "";
+            for (int i = 0; i < plainText.Length; i++)
+            {
+                int character = ((cipherText[i] - 97) - (plainText[i] - 97) + 26) % 26;
+                key += (char)(character + 97);
+                if (Encrypt(plainText, key) == cipherText)
+                    break;
+            }
+            return key;
         }
 
         public string Decrypt(string cipherText, string key)
         {
-            throw new NotImplementedException();
+            cipherText = cipherText.ToLower();
+            string keyStream = "";
+            string plainText = "";
+            for (int i = 0; i < cipherText.Length; i++)
+            {
+                keyStream += key[i % key.Length];
+                int character = ((cipherText[i] - 97) - (keyStream[i] - 97) + 26) % 26;
+                plainText += (char)(character + 97);
+            }
+            return plainText;
         }
 
         public string Encrypt(string plainText, string key)
         {
-            string newKey = key;
+            string keyStream = "";
             string cipherText = "";
-            int diff = plainText.Length - key.Length;
-            for (int i = 0; i < diff / key.Length; i++)
-                newKey += key;
-            newKey += key.Substring(0, diff % key.Length);
             for (int i = 0; i < plainText.Length; i++)
             {
-                int character = (plainText[i] - 97 + newKey[i] - 97) % 26;
+                keyStream += key[i % key.Length];
+                int character = (plainText[i] - 97 + keyStream[i] - 97) % 26;
                 cipherText += (char)(character + 97);
             }
             return cipherText;
