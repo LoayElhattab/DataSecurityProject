@@ -14,7 +14,65 @@ namespace SecurityLibrary
     {
         public List<int> Analyse(List<int> plainText, List<int> cipherText)
         {
-            throw new NotImplementedException();
+            List<int> plainTextInverse = new List<int>(new int[4]);
+            List<int> cipherTextEquiv = new List<int>(new int[4]);
+            int det = 0;
+            //Negative Modulus
+            int Mod(int x, int m)
+            {
+                int r = x % m;
+                return r < 0 ? r + m : r;
+            }
+            //2*2 Matrix Inverse
+            int i = 0, j = 0;
+            bool flag = false;
+            for (i = 0; i < plainText.Count - 3; i += 2)
+            {
+                for (j = i + 2; j < plainText.Count - 1; j += 2)
+                {
+                    det = (plainText[i] * plainText[j + 1] - plainText[i + 1] * plainText[j]);
+                    det = Mod(det, 26);
+                    int modInverseCnt = 1;
+                    if (BigInteger.GreatestCommonDivisor(det, 26) == 1)
+                    {
+                        while (true)
+                        {
+                            int a = modInverseCnt * det;
+                            if (a % 26 == 1) break;
+                            modInverseCnt++;
+                        }
+                        det = modInverseCnt;
+                        flag = true;
+                        break;
+                    }
+                }
+                if (flag) break;
+            }
+            plainTextInverse[3] = plainText[i];
+            plainTextInverse[0] = plainText[j + 1];
+            plainTextInverse[1] = -1 * plainText[i + 1];
+            plainTextInverse[2] = -1 * plainText[j];
+            cipherTextEquiv[0] = cipherText[i];
+            cipherTextEquiv[3] = cipherText[j + 1];
+            cipherTextEquiv[1] = cipherText[i + 1];
+            cipherTextEquiv[2] = cipherText[j];
+            for (i = 0; i < plainTextInverse.Count(); i++)
+            {
+                plainTextInverse[i] = Mod(plainTextInverse[i], 26);
+                plainTextInverse[i] *= det;
+                plainTextInverse[i] = Mod(plainTextInverse[i], 26);
+            }
+            //Key Calculation
+            List<int> key = new List<int>(new int[4]);
+            key[0] = (cipherTextEquiv[0] * plainTextInverse[0] + cipherTextEquiv[2] * plainTextInverse[1]) % 26;
+            key[1] = (cipherTextEquiv[0] * plainTextInverse[2] + cipherTextEquiv[2] * plainTextInverse[3]) % 26;
+            key[2] = (cipherTextEquiv[1] * plainTextInverse[0] + cipherTextEquiv[3] * plainTextInverse[1]) % 26;
+            key[3] = (cipherTextEquiv[1] * plainTextInverse[2] + cipherTextEquiv[3] * plainTextInverse[3]) % 26;
+            for (i = 0; i < key.Count(); i++)
+            {
+                key[i] = Mod(key[i], 26);
+            }
+            return key;
         }
 
 
