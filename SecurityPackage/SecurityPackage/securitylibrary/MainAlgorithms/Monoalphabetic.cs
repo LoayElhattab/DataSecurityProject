@@ -123,7 +123,7 @@ public string Decrypt(string cipherText, string key)
             string key = "";
             char[] freq = {'e','t' ,'a','o','i','n','s','r','h','l','d','c','u','m','f','p','g','w' ,'y','b','v','k','x','j','q','z'};
 
-            Dictionary<char,char> data = new Dictionary<char, char>();
+            Dictionary<char,int> data = new Dictionary<char, int>();
 
             for (int i = 0; i < cipher.Length; i++)
             {
@@ -135,7 +135,7 @@ public string Decrypt(string cipherText, string key)
                 }
                 else
                 {
-                    data[cipher[i]] ='0' ;
+                    data[cipher[i]] =0 ;
                 }
 
             }

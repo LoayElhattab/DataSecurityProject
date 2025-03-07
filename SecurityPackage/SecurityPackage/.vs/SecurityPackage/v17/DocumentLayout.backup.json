@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\monoalphabetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|e:\\college materials\\current term\\data security\\data project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\ceaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|E:\\college materials\\current term\\Data Security\\Data project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\mainalgorithms\\ceaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\ceaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|e:\\college materials\\current term\\data security\\data project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\hillcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|E:\\college materials\\current term\\Data Security\\Data project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\mainalgorithms\\hillcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\hillcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "securitylibrary\\MainAlgorithms\\Ceaser.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T20:25:19.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T20:25:19.206Z"
             },
             {
               "$type": "Document",
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
               "ToolTip": "E:\\college materials\\current term\\Data Security\\Data project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
               "RelativeToolTip": "securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAqwHAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwIUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T20:23:56.174Z",
               "EditorCaption": ""
@@ -120,8 +119,7 @@
               "RelativeToolTip": "securitylibrary\\MainAlgorithms\\HillCipher.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA2wEkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T21:35:05.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T21:35:05.999Z"
             }
           ]
         }
