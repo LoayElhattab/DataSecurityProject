@@ -15,18 +15,18 @@ namespace SecurityLibrary
 
             for (int i = 0; i < plainText.Length; i++)
             {
-              
+
                 if (!data.ContainsKey(plainText[i]))
                 {
-                   
-                    data[plainText[i]] = (char)(cipherText[i]+32);
+
+                    data[plainText[i]] = (char)(cipherText[i] + 32);
                 }
             }
 
-          
+
             HashSet<char> usedChar = new HashSet<char>(data.Values);
 
-          
+
             for (char i = 'a'; i <= 'z'; i++)
             {
                 if (!data.ContainsKey(i))
@@ -47,16 +47,16 @@ namespace SecurityLibrary
             string key = "";
             for (char c = 'a'; c <= 'z'; c++)
             {
-                key+= data[c];
+                key += data[c];
             }
 
             return key;
-                }
-        
+        }
 
 
 
-public string Decrypt(string cipherText, string key)
+
+        public string Decrypt(string cipherText, string key)
         {
             string text = "";
             for (int i = 0; i < cipherText.Length; i++)
@@ -121,9 +121,9 @@ public string Decrypt(string cipherText, string key)
         public string AnalyseUsingCharFrequency(string cipher)
         {
             string key = "";
-            char[] freq = {'e','t' ,'a','o','i','n','s','r','h','l','d','c','u','m','f','p','g','w' ,'y','b','v','k','x','j','q','z'};
+            char[] freq = { 'e', 't', 'a', 'o', 'i', 'n', 's', 'r', 'h', 'l', 'd', 'c', 'u', 'm', 'f', 'p', 'g', 'w', 'y', 'b', 'v', 'k', 'x', 'j', 'q', 'z' };
 
-            Dictionary<char,char> data = new Dictionary<char, char>();
+            Dictionary<char, int> data = new Dictionary<char, int>();
 
             for (int i = 0; i < cipher.Length; i++)
             {
@@ -135,14 +135,14 @@ public string Decrypt(string cipherText, string key)
                 }
                 else
                 {
-                    data[cipher[i]] ='0' ;
+                    data[cipher[i]] = 0;
                 }
 
             }
-            var sortedData= data.OrderByDescending(pair => pair.Value).ToList();
+            var sortedData = data.OrderByDescending(pair => pair.Value).ToList();
 
             Dictionary<char, char> newData = new Dictionary<char, char>();
-            
+
             for (int i = 0; i < sortedData.Count; i++)
             {
                 newData[sortedData[i].Key] = freq[i];
@@ -153,9 +153,9 @@ public string Decrypt(string cipherText, string key)
 
             for (int i = 0; i < cipher.Length; i++)
             {
-               
-                    key += newData[cipher[i]];
-                
+
+                key += newData[cipher[i]];
+
             }
 
 

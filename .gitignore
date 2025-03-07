@@ -1,37 +1,13 @@
-# Visual Studio files
-.vs/
+# Visual Studio user-specific files
+**/.vs/
 *.suo
 *.user
-*.vsidx
-DocumentLayout.json
-DocumentLayout.backup.json
+*.cache
+*.backup.json
+*.json
 
-# Build artifacts
-bin/
-obj/
-*.dll
-*.pdb
-
-# Test results
-TestResults/
-*.testlog
-testlog.manifest
-
-# SQLite database files
-storage.ide
-storage.ide-shm
-storage.ide-wal
-db.lock
-
-# Windows system files
-desktop.ini
-
-# Temporary files
-*.tmp
-*.temp
-TempPE/
-
-# Ignore nested directories recursively
-**/.vs/
+# Build outputs
 **/bin/
 **/obj/
+*.dll
+*.pdb
