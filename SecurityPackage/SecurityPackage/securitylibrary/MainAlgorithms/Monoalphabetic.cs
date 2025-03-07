@@ -120,8 +120,46 @@ public string Decrypt(string cipherText, string key)
         /// <returns>Plain text</returns>
         public string AnalyseUsingCharFrequency(string cipher)
         {
+            string key = "";
+            char[] freq = {'e','t' ,'a','o','i','n','s','r','h','l','d','c','u','m','f','p','g','w' ,'y','b','v','k','x','j','q','z'};
 
-            throw new NotImplementedException();
+            Dictionary<char,char> data = new Dictionary<char, char>();
+
+            for (int i = 0; i < cipher.Length; i++)
+            {
+
+                if (data.ContainsKey(cipher[i]))
+                {
+
+                    data[cipher[i]]++;
+                }
+                else
+                {
+                    data[cipher[i]] ='0' ;
+                }
+
+            }
+            var sortedData= data.OrderByDescending(pair => pair.Value).ToList();
+
+            Dictionary<char, char> newData = new Dictionary<char, char>();
+            
+            for (int i = 0; i < sortedData.Count; i++)
+            {
+                newData[sortedData[i].Key] = freq[i];
+            }
+
+
+
+
+            for (int i = 0; i < cipher.Length; i++)
+            {
+               
+                    key += newData[cipher[i]];
+                
+            }
+
+
+            return key;
         }
     }
 }
