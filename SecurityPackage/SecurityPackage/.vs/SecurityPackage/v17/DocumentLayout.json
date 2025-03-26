@@ -3,27 +3,43 @@
   "WorkspaceRootPath": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\mainalgorithms\\monoalphabetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\monoalphabetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\des\\tripledes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\des\\tripledes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitypackagetest\\hillciphertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|solutionrelative:securitypackagetest\\hillciphertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\des\\des.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\des\\des.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\mainalgorithms\\ceaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\ceaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitypackagetest\\des3destest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|solutionrelative:securitypackagetest\\des3destest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\mainalgorithms\\hillcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\hillcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\hillcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\columnartest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4638FC66-5518-485D-A541-D0A6044730B0}|SecurityPackageTest\\SecurityPackageTest.csproj|solutionrelative:securitypackagetest\\columnartest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\monoalphabetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\monoalphabetic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\mainalgorithms\\columnar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\railfence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\railfence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\playfair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\playfair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\repeatingkeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\repeatingkeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\autokeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\autokeyvigenere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|d:\\university\\year 3\\6th term\\data security\\project\\datasecurityproject\\securitypackage\\securitypackage\\securitylibrary\\mainalgorithms\\columnar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AFBAE4-208F-4F5D-B9F4-CCA2E71F36E4}|SecurityLibrary\\SecurityLibrary.csproj|solutionrelative:securitylibrary\\mainalgorithms\\columnar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,72 +50,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ceaser.cs",
-              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Ceaser.cs",
-              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\Ceaser.cs",
-              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Ceaser.cs",
-              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\Ceaser.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T20:25:19.206Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Monoalphabetic.cs",
-              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
-              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
-              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
-              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAmwKQAAAABAAAAAAAAAA==",
+              "Title": "TripleDES.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\DES\\TripleDES.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\DES\\TripleDES.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\DES\\TripleDES.cs",
+              "RelativeToolTip": "securitylibrary\\DES\\TripleDES.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAWwBMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T20:23:56.174Z",
+              "WhenOpened": "2025-03-26T00:54:25.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DES.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\DES\\DES.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\DES\\DES.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\DES\\DES.cs",
+              "RelativeToolTip": "securitylibrary\\DES\\DES.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:41:28.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayFair.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\PlayFair.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\PlayFair.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\PlayFair.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\PlayFair.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:02:21.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RailFence.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\RailFence.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\RailFence.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\RailFence.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\RailFence.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:02:17.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepeatingKeyVigenere.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\RepeatingKeyVigenere.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:02:15.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutokeyVigenere.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\AutokeyVigenere.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\AutokeyVigenere.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\AutokeyVigenere.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\AutokeyVigenere.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:02:12.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ColumnarTest.cs",
-              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\ColumnarTest.cs",
-              "RelativeDocumentMoniker": "securitypackagetest\\ColumnarTest.cs",
-              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\ColumnarTest.cs",
-              "RelativeToolTip": "securitypackagetest\\ColumnarTest.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAYwJwAAAAAAAAAAAAAAA==",
+              "Title": "Monoalphabetic.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\Monoalphabetic.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:53:46.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Columnar.cs",
-              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Columnar.cs",
-              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\Columnar.cs",
-              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Columnar.cs",
-              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\Columnar.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:51:49.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HillCipherTest.cs",
-              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\HillCipherTest.cs",
-              "RelativeDocumentMoniker": "securitypackagetest\\HillCipherTest.cs",
-              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\HillCipherTest.cs",
-              "RelativeToolTip": "securitypackagetest\\HillCipherTest.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAewIYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T08:11:51.415Z",
+              "WhenOpened": "2025-03-25T21:02:03.154Z",
               "EditorCaption": ""
             },
             {
@@ -110,9 +151,40 @@
               "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\HillCipher.cs",
               "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\HillCipher.cs",
               "RelativeToolTip": "securitylibrary\\MainAlgorithms\\HillCipher.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA2wEkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAgwNEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T21:35:05.999Z"
+              "WhenOpened": "2025-03-25T21:01:50.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DES3DesTest.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\DES3DesTest.cs",
+              "RelativeDocumentMoniker": "securitypackagetest\\DES3DesTest.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitypackagetest\\DES3DesTest.cs",
+              "RelativeToolTip": "securitypackagetest\\DES3DesTest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:23:13.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Columnar.cs",
+              "DocumentMoniker": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Columnar.cs",
+              "RelativeDocumentMoniker": "securitylibrary\\MainAlgorithms\\Columnar.cs",
+              "ToolTip": "D:\\University\\Year 3\\6th Term\\Data Security\\Project\\DataSecurityProject\\SecurityPackage\\SecurityPackage\\securitylibrary\\MainAlgorithms\\Columnar.cs",
+              "RelativeToolTip": "securitylibrary\\MainAlgorithms\\Columnar.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:02:06.011Z",
+              "EditorCaption": ""
             }
           ]
         }

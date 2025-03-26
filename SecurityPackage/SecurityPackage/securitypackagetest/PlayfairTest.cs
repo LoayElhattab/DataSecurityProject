@@ -103,6 +103,17 @@ namespace SecurityPackageTest
         }
 
         [TestMethod]
+        public void PlayfairTestBonusAnalysis()
+        {
+            PlayFair algorithm = new PlayFair();
+            string plain = algorithm.Analyse(largeCipher);
+            int count = Enumerable.Range(0, largePlainForAnlysis.Length)
+              .Count(i => largePlainForAnlysis[i] == plain[i]);
+
+            Assert.IsTrue(count * 100 / largePlain.Length > 50);
+        }
+
+        [TestMethod]
         public void PlayfairTestNewEnc()
         {
             PlayFair algorithm = new PlayFair();

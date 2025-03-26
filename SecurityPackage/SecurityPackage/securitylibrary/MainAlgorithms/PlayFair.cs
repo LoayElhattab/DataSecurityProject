@@ -177,5 +177,10 @@ namespace SecurityLibrary
                     }
           
         }
+
+        public string Analyse(string largeCipher)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
