@@ -11,6 +11,8 @@ namespace SecurityLibrary.RC4
     /// </summary>
     public class RC4 : CryptographicTechnique
     {
+        private byte[] S;
+        private byte[] K;
         public override string Decrypt(string cipherText, string key)
         {
             throw new NotImplementedException();
